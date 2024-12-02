@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(181, 177, 216);
+}
+
+h1 {
+  font-size: 7vw;
+  font-family: "Bungee", cursive;
+  background-image: url("galaxy.jpg");
+  background-size: cover;
+  background-clip: text;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-size: 100% 100%;
+  color: transparent;
+  background-blend-mode: hard-light;
+}
